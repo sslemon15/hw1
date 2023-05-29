@@ -1,0 +1,166 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    color: #070A21;
+  }
+
+  #my_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d9dadc;
+    padding: 25px 0 25px;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    
+  }
+  #logo{
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #logo_i{
+    width: 50px;
+    height: 50px;
+    background: url('property/travel-svgrepo-com.svg');
+    background-size: 50px 50px;
+ 
+  }
+
+
+main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+@media(max-width:500px){
+    main{
+        text-align: center;
+        margin: auto;
+        width: 90vW;
+    }
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    border: 1px solid #d9dadc;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  #ProgressBar {
+    width: 100%;
+    background-color: #ddd;
+
+  }
+  #bar {
+    width: 1%;
+    height: 10px;
+    background-color: #03bd09;
+
+  }
+
+  #alert {
+    font-weight:bold;
+    font-style: italic;
+  }
+  .name, .surname, .username, .email, .password, .confirm_password, .fileupload{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.allow{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.allow input{
+    width: 20px;
+    height: 20px;
+}
+
+.allow label{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+form img{
+    opacity: 0;
+    width: 10px;
+    margin-right: 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s ease;
+}
+
+.errorj label {
+    color: #d01b2d;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errorj img {
+    opacity: 1;
+}
+
+.errorj input, .errorj #upload {
+    border-color: #d01b2d;
+}
+
+.submit input{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 16px 14px 18px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color:#12d58a;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #12d58a;
+    color: #12d58a;
+}
+
+.signup{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#acc{
+    text-decoration: none;
+}
+
+#acc:hover{
+    text-decoration:underline;
+    color: #00C9FF;
+}
